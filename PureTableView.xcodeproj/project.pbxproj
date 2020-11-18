@@ -15,6 +15,8 @@
 		C655C64A25648D270064CF45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C655C64825648D270064CF45 /* LaunchScreen.storyboard */; };
 		C655C65525648D280064CF45 /* PureTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C655C65425648D280064CF45 /* PureTableViewTests.swift */; };
 		C655C66025648D280064CF45 /* PureTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C655C65F25648D280064CF45 /* PureTableViewUITests.swift */; };
+		C655C67125648DED0064CF45 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C655C67025648DED0064CF45 /* ListViewController.swift */; };
+		C655C676256490DB0064CF45 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C655C675256490DB0064CF45 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C655C65B25648D280064CF45 /* PureTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PureTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C655C65F25648D280064CF45 /* PureTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureTableViewUITests.swift; sourceTree = "<group>"; };
 		C655C66125648D280064CF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C655C67025648DED0064CF45 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		C655C675256490DB0064CF45 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				C655C63D25648D240064CF45 /* AppDelegate.swift */,
 				C655C63F25648D240064CF45 /* SceneDelegate.swift */,
 				C655C64125648D240064CF45 /* ViewController.swift */,
+				C655C67025648DED0064CF45 /* ListViewController.swift */,
+				C655C675256490DB0064CF45 /* DetailViewController.swift */,
 				C655C64325648D240064CF45 /* Main.storyboard */,
 				C655C64625648D270064CF45 /* Assets.xcassets */,
 				C655C64825648D270064CF45 /* LaunchScreen.storyboard */,
@@ -260,6 +266,8 @@
 			files = (
 				C655C64225648D240064CF45 /* ViewController.swift in Sources */,
 				C655C63E25648D240064CF45 /* AppDelegate.swift in Sources */,
+				C655C676256490DB0064CF45 /* DetailViewController.swift in Sources */,
+				C655C67125648DED0064CF45 /* ListViewController.swift in Sources */,
 				C655C64025648D240064CF45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
